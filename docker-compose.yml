@@ -2,5 +2,6 @@ version: '2'
 services:
     httpbin:
       build: '.'
+      restart: always
       ports:
         - '8080:80'
